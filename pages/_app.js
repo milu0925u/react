@@ -23,7 +23,7 @@ export default function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
           crossorigin="anonymous"
-        ></link>
+        />
         {/* <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css"></link> */}
       </Helmet>
 

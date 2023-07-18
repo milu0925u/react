@@ -1,0 +1,20 @@
+.active{
+    color:green;
+    font-weight: bold;
+}
+
+.completed{
+    text-decoration:line-through;
+}
+
+.normal-btn{
+    background-color: #fff;
+    color:black;
+    border: 1px solid black;
+}
+
+.active-btn{
+    background-color: #0099ff;
+    color:rgb(255, 255, 255);
+    border: 1px solid black;
+}

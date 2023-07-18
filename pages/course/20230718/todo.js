@@ -1,5 +1,5 @@
 import React from 'react'
-import TodoIndex from '@/components/todo/todoindex'
+import TodoIndex from '@/components/todo'
 
 export default function Todo() {
   return (
