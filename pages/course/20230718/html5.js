@@ -7,6 +7,10 @@ export default function Html5() {
   //呈現密碼 true=顯示 false=***
   const [show, setShow] = useState(false)
 
+  // radio-group
+  const foodOptions = ['牛肉麵', '三明治', '牛奶']
+  const [food, setfood] = useState('')
+
   return (
     <>
       <h1>可控表單元件</h1>
@@ -52,6 +56,23 @@ export default function Html5() {
           />
           顯示密碼
         </label>
+      </section>
+
+      <section id="radio-group" className="p-2">
+        <h3>選項按鈕群組 radio group </h3>
+        {foodOptions.map((v, i) => {
+          return (
+            <label key={i}>
+              <input
+                type="radio"
+                value={v}
+                checked={true}
+                onChange={(e) => {}}
+              />
+              {v}
+            </label>
+          )
+        })}
       </section>
     </>
   )
